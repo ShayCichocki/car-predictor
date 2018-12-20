@@ -6,7 +6,7 @@ from torchvision import datasets, transforms
 
 from helpers.helpers import train, test
 
-MODEL_LOCATION = './trained-models/model_cars.pt'
+MODEL_LOCATION = '../trained-models/car_classifier.pt'
 DATASET_LOCATION = "./car_data/train"
 TESTSET_LOCATION = "./car_data/test"
 
